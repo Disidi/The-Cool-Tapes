@@ -756,6 +756,25 @@
 	set_trait(TRAIT_PLANT_ICON,"bush2")
 	set_trait(TRAIT_WATER_CONSUMPTION, 6)
 
+/datum/seed/cattail
+	name = "cattail"
+	seed_name = "cattail"
+	display_name = "cattails"
+	chems = list(/datum/reagent/nutriment/cattail = list(1,10), /datum/reagent/drink/juice/cattail = list(10,10))
+	kitchen_tag = "cattail"
+
+/datum/seed/cattail/New()
+	..()
+	set_trait(TRAIT_PRODUCES_POWER,1)
+	set_trait(TRAIT_MATURATION,10)
+	set_trait(TRAIT_PRODUCTION,1)
+	set_trait(TRAIT_YIELD,4)
+	set_trait(TRAIT_POTENCY,10)
+	set_trait(TRAIT_PRODUCT_ICON,"hotdog")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#44cab4")
+	set_trait(TRAIT_PLANT_ICON,"bush2")
+	set_trait(TRAIT_WATER_CONSUMPTION, 6)
+
 /datum/seed/garlic
 	name = "garlic"
 	seed_name = "garlic"

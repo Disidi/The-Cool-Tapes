@@ -115,6 +115,7 @@
 	nutriment_factor = 1
 	color = "#ffffff"
 
+
 /datum/reagent/nutriment/flour/touch_turf(var/turf/simulated/T)
 	if(!istype(T, /turf/space))
 		new /obj/effect/decal/cleanable/flour(T)
@@ -122,6 +123,14 @@
 			T.wet = min(T.wet, 1)
 		else
 			T.wet = 0
+
+/datum/reagent/nutriment/cattail
+	name = "cattail"
+	description = "This is a cattail. It looks strangely like a corndog."
+	taste_description = "fluffy grass"
+	reagent_state = SOLID
+	nutriment_factor = 1
+	color = "#ffffff"
 
 /datum/reagent/nutriment/coco
 	name = "Coco Powder"
@@ -553,6 +562,17 @@
 
 	glass_name = "potato juice"
 	glass_desc = "Juice from a potato. Bleh."
+
+/datum/reagent/drink/juice/cattail
+	name = "Cattail Juice"
+	description = "Juice of the cattail. cattails do have juice, right?"
+	taste_description = "mmm... corndogs..."
+	nutrition = 2
+	color = "#a4927d"
+
+	glass_name = "cattail juice"
+	glass_desc = "Juice from a cattail. Science really is amazing sometimes."
+
 
 /datum/reagent/drink/juice/garlic
 	name = "Garlic Juice"
