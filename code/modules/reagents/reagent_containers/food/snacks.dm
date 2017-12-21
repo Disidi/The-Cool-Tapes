@@ -3265,6 +3265,17 @@
 		..()
 		reagents.add_reagent(/datum/reagent/nutriment/protein, 16)
 
+/obj/item/weapon/reagent_containers/food/snacks/corndog
+	name = "corndog"
+	desc = "A dog made of corn, a dog who herds corn, or just some cattail fruit? the world may never know."
+	icon_state = "hotdog"
+	bitesize = 2
+	center_of_mass = "x=16;y=17"
+
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/nutriment/protein, 6)
+
 /obj/item/weapon/reagent_containers/food/snacks/flatbread
 	name = "flatbread"
 	desc = "Bland but filling."

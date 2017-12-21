@@ -151,6 +151,19 @@ I said no!
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/hotdog
 
+/datum/recipe/friedcattail
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/dough,
+		/obj/item/weapon/reagent_containers/food/snacks/sausage
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/corndog
+
+/datum/recipe/corndog
+	items = list(
+		/datum/reagent/nutriment/cattail
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/corndog
+
 /datum/recipe/waffles
 	reagents = list(/datum/reagent/sugar = 10)
 	items = list(

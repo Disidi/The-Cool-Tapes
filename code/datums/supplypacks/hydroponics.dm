@@ -93,6 +93,7 @@
 					/obj/item/seeds/sunflowerseed,
 					/obj/item/seeds/chantermycelium,
 					/obj/item/seeds/potatoseed,
+					/obj/item/seeds/cattailseed,
 					/obj/item/seeds/sugarcaneseed)
 	cost = 10
 	containername = "\improper Seeds crate"
