@@ -3267,8 +3267,8 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/corndog
 	name = "corndog"
-	desc = "A dog made of corn, a dog who herds corn, or just some cattail fruit? the world may never know."
-	icon_state = "hotdog"
+	desc = "A dog made of corn, a breaded hotdog, or just some cattail fruit? the world may never know."
+	icon_state = "corndog"
 	bitesize = 2
 	center_of_mass = "x=16;y=17"
 

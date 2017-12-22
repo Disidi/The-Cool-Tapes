@@ -770,8 +770,8 @@
 	set_trait(TRAIT_PRODUCTION,1)
 	set_trait(TRAIT_YIELD,4)
 	set_trait(TRAIT_POTENCY,10)
-	set_trait(TRAIT_PRODUCT_ICON,"banana")
-	set_trait(TRAIT_PRODUCT_COLOUR,"#635038")
+	set_trait(TRAIT_PRODUCT_ICON,"cattail")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#a26c3c")
 	set_trait(TRAIT_PLANT_ICON,"stalk")
 	set_trait(TRAIT_WATER_CONSUMPTION, 6)
 

@@ -1906,6 +1906,16 @@
 	required_reagents = list(/datum/reagent/ethanol/rum = 1, /datum/reagent/drink/dr_gibb = 2, /datum/reagent/drink/ice = 1)
 	result_amount = 4
 
+/datum/chemical_reaction/true_hotdog_essence
+	name = "True Essence of Hotdog"
+	result = /datum/reagent/ethanol/true_hotdog_essence
+	required_reagents = list(
+		/datum/reagent/nutriment/ketchup = 1, 
+		/datum/reagent/nutriment/flour = 1, 
+		/datum/reagent/nutriment/cattail = 1, 
+		/datum/reagent/drink/ice = 1)
+	result_amount = 4
+
 /datum/chemical_reaction/luminol
 	name = "Luminol"
 	result = /datum/reagent/luminol

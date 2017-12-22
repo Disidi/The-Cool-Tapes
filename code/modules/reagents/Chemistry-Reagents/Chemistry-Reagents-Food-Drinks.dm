@@ -566,7 +566,7 @@
 /datum/reagent/drink/juice/cattail
 	name = "Cattail Juice"
 	description = "Juice of the cattail. cattails do have juice, right?"
-	taste_description = "mmm... corndogs..."
+	taste_description = "microwaved corndog"
 	nutrition = 2
 	color = "#a4927d"
 
@@ -1913,6 +1913,16 @@
 	taste_description = "black comedy"
 	color = "#524d0f"
 	strength = 15
+
+	glass_name = "ship's surgeon"
+	glass_desc = "Rum qualified for surgical practice by Dr. Gibb. Smooth and steady."
+
+/datum/reagent/ethanol/true_hotdog_essence
+	name = "True Essence of Hotdog"
+	description = "A."
+	taste_description = "liquid hotdog"
+	color = "#a25b3c"
+	strength = 6
 
 	glass_name = "ship's surgeon"
 	glass_desc = "Rum qualified for surgical practice by Dr. Gibb. Smooth and steady."
