@@ -73,6 +73,12 @@
 	desc = "A flexible, close-fitting shirt with camouflage sleeves designed to be worn under combat equipment. This one is green."
 	icon_state = "ubacgreen"
 
+/obj/item/clothing/accessory/scarf/machine_wings
+	name = "machine wings"
+	desc = "Some cardboard wings designed to be taped onto a Machine"
+	species_restricted = list(SPECIES_IPC)
+	icon_state = "machine_wings"
+
 /obj/item/clothing/accessory/toggleable
 	var/icon_closed
 /obj/item/clothing/accessory/toggleable/New()
